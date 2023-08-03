@@ -1,0 +1,33 @@
+/*mobile*/
+ @media(min-width:320px){
+    .box{
+        width: 90%;
+  }
+  .hrs,.min,.sec,.ms,.colon{
+    width: 50px;
+    height: 50px;}
+    .colon{
+        width: 10px;}
+ }
+ /*ipad*/
+ @media(min-width:660px){
+    .box{
+        width: 50%;
+  }
+  .hrs,.min,.sec,.ms,.colon{
+    width: 50px;
+    height: 50px;}
+    .colon{
+        width: 10px;}
+ }
+  /*laptop*/
+  @media(min-width:960px){
+    .box{
+        width: 25%;
+  }
+  .hrs,.min,.sec,.ms,.colon{
+    width: 50px;
+    height: 50px;}
+    .colon{
+        width: 10px;}
+}
